@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req,res)=>{
-    return res.json({token:'OJKDSHJKNDD'})
+    return res.json({ip:'OJKDSHJKNDD'})
 })
 
 app.listen(3000, ()=>{
